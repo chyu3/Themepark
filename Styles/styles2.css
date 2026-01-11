@@ -1,0 +1,150 @@
+/* When in doubt, display:flex */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.navigation_bar{
+    background-color: #333;
+    text-align: center;
+}
+.nav{
+    list-style-type: none;
+    margin-left: 36%;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+#navbox{
+    float: left;
+}
+  
+#navbox a{
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#navbox a:hover{
+    background-color: #111;
+    cursor: pointer;
+}
+.selectednav{
+    background-color: #111;
+}
+.gallery{
+    width: 100%;
+}
+.logo{
+    height: 5%;
+    width: 5%;
+    padding: 5px;
+    margin: 0;
+}
+body{
+    background-color: blue;
+}
+.mainbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#mainbox{
+    position: absolute;
+    margin: 40px;
+    padding: 20px;
+}
+.ticketheader{
+    font-size: 100px;
+    text-decoration: underline;
+    color: orangered;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.big_container_grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: darkblue;
+    padding: 10px;
+    gap: 2%;
+}
+.Package{
+    background-color: aqua;
+    border: 1px;
+    border-style: solid;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+}
+.headerbox{
+    background-color: rgb(0, 191, 255);
+    padding: 30px;
+    display: flex;
+    border-style: solid;
+    position: relative;
+}
+.packageheader{
+    color: rgb(234, 255, 0);
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.benefits{
+    padding: 30px;
+    text-align: left;
+    color: rgb(234, 255, 0);
+    font-size: 20px;
+}
+#listfont{
+    font-family: fantasy;
+}
+.boxbutton{
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin-top: 100px;
+    margin-right: 30px;
+    position: absolute;
+    cursor: pointer;
+    border-style: inset;
+}
+.boxheader{
+    color: rgb(234, 255, 0);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.x{
+    background-color: blueviolet;
+    border-style: solid;
+    display: flex;
+    padding: 10px;
+}
+.box1_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1{
+    background-color: rgb(100, 0, 182);
+    margin: 0;
+    padding: 20px;
+    height: 70px;
+    width: 100%;
+}
+#bottomheader{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: orangered;
+    background-color: rgba(0, 255, 255, 0.438);
+}
+
+h2{
+    color:white;
+    font-size: 12px;
+    text-align: center;
+}
